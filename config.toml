@@ -24,8 +24,8 @@ theme = "certtheme"
   # copyright = "Hugo template made with ❤ by Xzya"
 
   [[languages.en.menu.main]]
-    url = "/"
-    name = "Home"
+    url = "/certificates"
+    name = "Certificates"
     weight = 1
   [[languages.en.menu.main]]
     url = "http://makerviet.org/"
