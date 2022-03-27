@@ -1,5 +1,12 @@
 {{ define "main" }}
 
+{{ if eq .Section "certificates" }}
+<article class="blog-post">
+    <!-- {{ .Content }} -->
+    {{ partial "cert_templates/theme1" . }}
+</article>
+
+{{ else }}
 <header>
     {{ partial "post-title" . }}
     {{ partial "post-date" . }}
@@ -13,5 +20,6 @@
     {{ partial "translations.html" . }}
     {{ partial "related" . }}
 </article>
+{{ end }}
 
 {{ end }}

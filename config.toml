@@ -4,8 +4,8 @@ languageCode = "en-us"
 defaultContentLanguage = "en"
 
 # Pagination
-paginate = 3
-paginatePath = "page"
+paginate = 10
+paginatePath = "post"
 
 # Theme to use
 theme = "certtheme"
@@ -31,15 +31,16 @@ theme = "certtheme"
     url = "http://makerviet.org/"
     name = "About"
     weight = 2
-  [[languages.en.menu.main]]
-    url = "/contact/"
-    name = "Contact"
-    weight = 3
+  # [[languages.en.menu.main]]
+  #   url = "/contact/"
+  #   name = "Contact"
+  #   weight = 3
 
 # Links format
 
 [permalinks]
-  post = "/:year/:month/:title/"
+  post = "/:slug/"
+  certificates = "/:slug/"
 
 [params]
   # Main sections (currently used for the recent posts in the sidebar)

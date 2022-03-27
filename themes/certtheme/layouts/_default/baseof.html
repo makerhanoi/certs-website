@@ -45,7 +45,11 @@
 
         </div>
 
+        {{ if eq .Section "certificates" }}
+        {{ partial "cert_templates/sidebar.html" . }}
+        {{ else }}
         {{ partial "sidebar.html" . }}
+        {{ end }}
 
       </div>
     </div>

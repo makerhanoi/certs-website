@@ -1,4 +1,2 @@
 ---
-title: Posts
 ---
-Hello world!
