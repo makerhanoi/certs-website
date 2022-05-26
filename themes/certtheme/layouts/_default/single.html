@@ -1,9 +1,26 @@
 {{ define "main" }}
 
+{{ $theme_path := "cert_templates/theme1.svg" }}
+{{ if .Params.theme }}
+{{ $theme_path = (printf "%s/%s" "cert_templates" .Params.theme) }}
+{{ end }}
+
 {{ if eq .Section "certificates" }}
 <article class="blog-post">
-    <!-- {{ .Content }} -->
-    {{ partial "cert_templates/theme1" . }}
+    <div class="svg-container">
+    {{ partial $theme_path . }}
+    </div>
+    <style>
+    .svg-container {
+        max-width: 100%;
+    }
+
+    svg {
+        max-width: 100%;
+        height: auto;
+        width: auto;
+    }
+    </style>
 </article>
 
 {{ else }}

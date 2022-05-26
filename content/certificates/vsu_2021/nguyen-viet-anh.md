@@ -9,4 +9,5 @@ reason: "for completion of VSU Robotics Course 2022"
 issue_date: "26/03/2022"
 signature: "/signatures/tuanle.png"
 undersigned: "Tuan Le - Founder MakerViet"
+theme: "theme1.svg"
 ---
