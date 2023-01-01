@@ -1,5 +1,5 @@
 ---
-title: Cao Van Tung Duong
+title: Luu Duc Nguyen
 date: 2022-12-12
 categories: ["Certification"]
 tags: ["vsu_2022"]
