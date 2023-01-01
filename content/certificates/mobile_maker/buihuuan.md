@@ -2,7 +2,7 @@
 title: Bui Huu An
 date: 2022-05-25
 categories: ["Certification"]
-tags: ["Monile Maker Tour 01"]
+tags: ["Mobile Maker"]
 slug: "/certs/mobile_maker/bui-huu-an"
 name: "Bui Huu An"
 reason: "for participating in the Mobile Maker Tour 01"
