@@ -1,6 +1,6 @@
 ---
 title: Nguyen Thi Bao Ngoc
-date: 2022-12-12
+date: 2023-02-06
 categories: ["Certification"]
 tags: ["vsu_2023"]
 slug: "/certs/vsu_2023/nguyen-thi-bao-ngoc"
